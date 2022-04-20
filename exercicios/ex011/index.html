@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midies em html5</title>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir essas imagens em varios dispositivos diferentesou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+       <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>vamos aprender a colocar audio no html 5</p>
+    <audio src="midia/10-Back At One-Brian McKnight.mp3" controls autoplay></audio> <!--quando adicionar um audio deve se adicionar o parametro controls para aparecer o controle de audio e autoplay para reproduzir -->
+    <audio preload="metadata" >
+        <source src="midia/10-Back At One-Brian McKnight.mp3" type="audio/mpeg">
+        <source src="midia/10-Back At One-Brian McKnight.ogg" type="midia/ogg">
+        <source src="midia/10-Back At One-Brian McKnight.wav" type="midia/wav">
+    </audio>
+    <p>caso seu audio nao reproduza <a href="midia/10-Back At One-Brian McKnight.mp3" target="_blank" rel="external">clique aqui para download</a>
+    </p><!--sempre procurar adicionar ao menos dois formatos de audio assim como as imagens em tabanhos diferentes para poder alcançar o maior numero de dispositivos e deixar seu site mais atrativo-->
+</head>
+<body>
+    
+</body>
+</html>

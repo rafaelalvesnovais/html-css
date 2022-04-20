@@ -1,0 +1,118 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'android';
+    src: url('./fontes/idroid.otf') format('opentype') ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+:root{
+    --cor1:#ebe5c5;
+    --cor2:#83e1ad;
+    --cor3:#3ddc84;
+    --cor4:#2fa866;
+    --cor5:#1a5c37;
+    --cor6:#063d1e;
+}
+*{ 
+    margin: 0px;
+padding: 0px;
+}
+body{
+    background-color: var(--cor3);
+}
+header{
+    background-image: linear-gradient(to bottom, #83e1ad,#1a5c37);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    height: 150px;
+}
+header > p{
+    padding: 10px;
+    margin: auto;
+}
+ nav{
+     background-color: #1a5c37;
+    text-align: left;
+    padding: 10px;
+}
+nav > :hover{
+    background-color: #3ddc84;
+    padding: 10px;
+    border-radius: 3px;
+}
+header > h1{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    min-width: 100px;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.video{
+    background-color: #063d1e;
+    margin: 0px -20px;
+    position: relative;
+    padding-bottom: 95%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    height: 90$;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+    margin: 10px;
+    font-weight: bolder;
+    transition-duration: 1s;
+    
+}
+h1{font-family: 'android', Arial, Helvetica, sans-serif;
+    color: #063d1e;
+}
+h2{
+    font-family: 'android',Arial, Helvetica, sans-serif;
+    color: #063d1e;
+    background-image: linear-gradient(to left,#83e1ad57,#1a5c37c2);
+    text-indent: 15px;
+}
+p{
+    text-indent: 15px;
+}
+aside{
+    background-color: #2fa866;
+    padding: 15px;
+    border-radius: 10px;
+}
+aside > h3{
+    background-color: #063d1eca;
+    margin: -15px -15px 0px -15px;
+    border-radius: 10px 10px 0px 0px;
+}
+ul{
+    list-style-type: '\2714\0020\0020';
+    background-color: #2fa866;
+    list-style-position: inside;
+    columns: 2;
+    border-radius: 10px;
+}
+
+strong{
+    color: #063d1e;
+    font-weight: bolder;
+}
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
